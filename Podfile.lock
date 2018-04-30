@@ -1,0 +1,77 @@
+PODS:
+  - FirebaseAuth (4.6.1):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.20):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (4.1.5):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseStorage (2.2.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.3)":
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.3)"
+  - GTMSessionFetcher/Core (1.1.15)
+  - leveldb-library (1.20)
+
+DEPENDENCIES:
+  - FirebaseAuth (from `https://github.com/firebase/firebase-ios-sdk.git`)
+  - FirebaseCore (from `https://github.com/firebase/firebase-ios-sdk.git`)
+  - FirebaseDatabase (from `https://github.com/firebase/firebase-ios-sdk.git`)
+  - FirebaseStorage (from `https://github.com/firebase/firebase-ios-sdk.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - leveldb-library
+
+EXTERNAL SOURCES:
+  FirebaseAuth:
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+  FirebaseCore:
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+  FirebaseDatabase:
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+  FirebaseStorage:
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  FirebaseAuth:
+    :commit: 2320ba483752867872ca0128098af4e0eef08164
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+  FirebaseCore:
+    :commit: 2320ba483752867872ca0128098af4e0eef08164
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+  FirebaseDatabase:
+    :commit: 2320ba483752867872ca0128098af4e0eef08164
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+  FirebaseStorage:
+    :commit: 2320ba483752867872ca0128098af4e0eef08164
+    :git: https://github.com/firebase/firebase-ios-sdk.git
+
+SPEC CHECKSUMS:
+  FirebaseAuth: ebe95e25ed48ac852309a84748185b7ff866a60a
+  FirebaseCore: a1510ae6289c6ec8340da899d243d72393e80bfc
+  FirebaseDatabase: 1415613c6ad5d7d49836df076ac9ec9358218e56
+  FirebaseStorage: 3192775008b2b5e98eb003c97c732d12ae46ddba
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+
+PODFILE CHECKSUM: 61e2e0615eff5e871c81285f19e5e9fbaf3a294c
+
+COCOAPODS: 1.5.0
